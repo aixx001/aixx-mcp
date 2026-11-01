@@ -1,0 +1,61 @@
+{
+  "name": "aixx-mcp",
+  "version": "1.0.5",
+  "description": "AIXX MCP server — one API key to every AI model (Claude/GPT/Gemini/DeepSeek/Qwen/GLM) + image & video generation. Unified AI gateway, OpenAI-compatible. By AIXX (Wanan Exchange), the verification-first compute exchange. Works with any MCP client (CodeBuddy, Claude Code, Cursor, Cline).",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "aixx-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "aixx",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "ai-gateway",
+    "llm-gateway",
+    "one-api",
+    "multi-model",
+    "openai",
+    "openai-compatible",
+    "openai-api",
+    "llm",
+    "ai",
+    "claude",
+    "claude-code",
+    "gpt",
+    "gemini",
+    "deepseek",
+    "qwen",
+    "glm",
+    "cursor",
+    "cline",
+    "codebuddy",
+    "image-generation",
+    "text-to-image",
+    "video-generation",
+    "text-to-video",
+    "compute",
+    "gpu",
+    "marketplace",
+    "wanan",
+    "aixxai"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "AIXX (Wanan Exchange)",
+    "url": "https://www.aixx.vip"
+  },
+  "homepage": "https://www.aixx.vip",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/kk0803/token-hub.git"
+  }
+}
