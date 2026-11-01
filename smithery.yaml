@@ -1,0 +1,14 @@
+# Smithery configuration for aixx-mcp
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      AIXX_API_KEY:
+        type: string
+        title: AIXX API Key
+        description: Your AIXX key (get one at https://aixx.ai) - one key, every AI model.
+    required:
+      - AIXX_API_KEY
+  commandFunction: |-
+    (config) => ({ "command": "npx", "args": ["-y", "aixx-mcp"], "env": { "AIXX_API_KEY": config.AIXX_API_KEY } })
